@@ -1,9 +1,4 @@
-body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
+@charset "UTF-8";
 header {
   background: linear-gradient(180deg, #E8F5C8 0%, #FFFFFF 96.87%);
   padding: 2rem;
@@ -27,9 +22,12 @@ header nav ul li {
 }
 header nav ul a {
   text-decoration: none;
-  color: #0C0421;
+  /*
+  color: variaveis.$cor-primaria;
   font-weight: 500;
-  font-family: "Montserrat", sans-serif;
+  font-family: variaveis.$ft-textos;
+  Troquei pelo código do mixin*/
+  @in;
 }
 header #home {
   max-width: 1040px;
@@ -71,9 +69,4 @@ header #home .img-home {
 }
 header #home .img-home img {
   width: 100%;
-}
-
-#nosso-espaco {
-  margin: 0 auto;
-  width: 80%;
-}/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=header.css.map */
