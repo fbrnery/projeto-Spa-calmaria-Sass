@@ -1,0 +1,18 @@
+
+@use '../abstract/variaveis';
+@use '../abstract/mixins';
+
+footer {
+    background-color: #E8F5C8;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    padding: 2rem;
+    text-align: center;
+    margin-top: 5rem;
+    @include mixins.ff-fs-cl(variaveis.$ft-textos, 1rem, variaveis.$cor-primaria);
+    
+}
+small {
+    gap: 10rem;
+}
